@@ -1,18 +1,13 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Ignore bot token file
+.env
 
-# Other files and folders
-.settings/
+# Ignore vscode settings
+.vscode/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Ignore pycache stuff
+*.pyc
+__pycache__/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+bot-env/
+*.iml
+.idea/
